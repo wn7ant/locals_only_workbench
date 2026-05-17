@@ -1,0 +1,29 @@
+# Secrets and local environment
+.env
+*.env
+!.env.example
+
+# Backups and runtime data
+backups/
+*.bak
+*.backup
+*.tar
+*.tar.gz
+*.zip
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Local runtime mounts if ever created here
+gitea/
+pihole/
+unbound/
+postgres/
+data/
+volumes/
+
+# Private working copies
+docker-compose.working.yml
